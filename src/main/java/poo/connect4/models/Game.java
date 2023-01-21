@@ -18,6 +18,7 @@ public class Game {
         this.board = new Board();
         this.turn = new Turn(this.board);
         this.reset();
+        System.out.println();
     }
 
     private void reset() {
